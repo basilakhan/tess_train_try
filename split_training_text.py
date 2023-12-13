@@ -33,7 +33,7 @@ for line in lines:
 
     subprocess.run([
         'text2image',
-        ' --font=DejaVuSans',
+        '--font=DejaVuSans',
         f'--text={line_training_text}',
         f'--outputbase={output_directory}/{file_base_name}',
         '--max_pages=1',
