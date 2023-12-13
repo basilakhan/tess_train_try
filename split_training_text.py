@@ -33,7 +33,7 @@ for line in lines:
 
     subprocess.run([
         'text2image',
-        '--font=Apex',
+        '--fonts_dir=/mnt/c/Users/Basil/OneDrive/Documents/grad_project/fonts/Apex Regular.otf --font=Apex',
         f'--text={line_training_text}',
         f'--outputbase={output_directory}/{file_base_name}',
         '--max_pages=1',
